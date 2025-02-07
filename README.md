@@ -1,45 +1,33 @@
-# Gold Price Prediction - Best Model Analysis
-
-📌 Project Overview
-
-This project aims to find the best model for predicting gold prices by analyzing historical data. It involves data preprocessing, exploratory data analysis (EDA), feature engineering, and model evaluation to determine the most accurate predictive model.
+📈 Gold Price Prediction - Best Model Analysis
+📌 Overview
+This project aims to predict gold prices using different machine learning models. By analyzing historical gold price data, we compare various models to determine the best-performing one for accurate forecasting.
 
 📂 Dataset
+The dataset includes key financial indicators such as:
 
-Source: Historical gold price dataset (publicly available or simulated data)
+Date-wise gold prices
+Crude oil prices
+Stock market indices (e.g., S&P 500)
+Exchange rates (USD-INR)
+🛠️ Technologies Used
+Python for data analysis and model building
+Pandas & NumPy for data preprocessing
+Matplotlib & Seaborn for visualization
+Scikit-learn for machine learning models
+🚀 Machine Learning Models Tested
+Linear Regression 📈
+Random Forest Regressor 🌲
+XGBoost Regressor ⚡
+LSTM (Long Short-Term Memory) 🧠 (Deep Learning Approach)
+📊 Performance Evaluation
+The models were compared using:
 
-Attributes: Date, Gold Price, Oil Price, Stock Market Indices, Interest Rates, Inflation, etc.
+Mean Absolute Error (MAE)
+Root Mean Squared Error (RMSE)
+R² Score
+Among all models, XGBoost and LSTM showed the best accuracy for predicting future gold prices.
 
-🚀 Key Objectives
-
-Perform data preprocessing to handle missing values and inconsistencies.
-
-Conduct exploratory data analysis (EDA) to identify key trends and correlations.
-
-Test different machine learning models to find the best-performing one.
-
-Compare models based on accuracy, RMSE, and other performance metrics.
-
-Optimize the best model for better predictions.
-
-🔧 Technologies Used
-
-MySQL for data storage and extraction
-
-Python (Pandas, NumPy, Scikit-learn) for model training and evaluation
-
-📊 Analysis & Insights
-
-Factors influencing gold price fluctuations.
-
-Impact of economic indicators on gold prices.
-
-Best-performing model for gold price prediction.
-
-🔮 Future Scope
-
-Test deep learning models for better prediction accuracy.
-
-Incorporate real-time data streaming for live price predictions.
-
-Develop an interactive dashboard for visualizing predictions.
+📌 Future Improvements
+Incorporating macroeconomic indicators like inflation & interest rates
+Experimenting with Transformer-based models for better predictions
+Building a real-time dashboard for price tracking
