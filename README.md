@@ -35,6 +35,7 @@ Factors influencing gold price fluctuations.
 Impact of economic indicators on gold prices.
 
 Best-performing model for gold price prediction.
+
 🔮 Future Scope
 
 Test deep learning models for better prediction accuracy.
